@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+@font-face{font-family:product sans;font-style:normal;font-weight:400;src:local('Product Sans'),url(https://fonts.cdnfonts.com/s/13998/ProductSans-Regular.woff) format('woff')}
+
+
+.hero{
+  background-image: url('/background.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+  background-color: #1A1D1F;
+  height: 100vh;
+}
+nav div>button{
+  font-size: clamp(14px, 1vw, 16px);
+}
