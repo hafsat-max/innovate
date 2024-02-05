@@ -5,7 +5,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <section className='bg-neutrals'>
-    <footer className='flex flex-col gap-8  py-60 px-60p app-container'>
+    <footer className='flex flex-col gap-8  py-60 px-60p app-container '>
 
       {/* row 1 */}
       <section className='flex items-center justify-between text-white max-[800px]:flex-col max-[800px]:w-full gap-5 '>
@@ -15,7 +15,7 @@ const Footer = () => {
           <p className='clash text-[13px] font-medium leading-[15.99px] max-[800px]:hidden'>Short sentence here</p>
         </div>
         {/* right side */}
-        <div className='flex justify-between min-w-[440px] full'>
+        <div className='flex justify-between min-w-[440px] full max-[500px]:flex-col max-[500px]:gap-5 max-[500px]:min-w-full'>
           <h3 className='max-w-[100px] integral font-bold leading-[25.2px] tracking-[-1%] text-[21px]'>CONNECT WITH US</h3>
           <div>
             {/* social links */}
@@ -43,7 +43,7 @@ const Footer = () => {
           <h4 className='copywright date'>2022</h4>
         </div>
         {/* right section */}
-        <div className='min-w-[440px] flex justify-between items-center'>
+        <div className='min-w-[440px] flex justify-between items-center max-[500px]:min-w-full'>
           <h4 className='copywright'>TERMS & CONDITIONS</h4>
           <h4 className='copywright'>PRIVACY POLICY</h4>
         </div>

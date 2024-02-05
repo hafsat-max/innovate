@@ -1,4 +1,4 @@
-import { Menu } from 'iconsax-react'
+import { HambergerMenu, Menu } from 'iconsax-react'
 import React from 'react'
 
 function Navbar() {
@@ -16,7 +16,7 @@ function Navbar() {
         <button className='bg-primary font-medium leading-20px py-[10px] px-6 
         '>Log in</button>
       </div>
-      <Menu className='min-[600px]:hidden' size={20} />
+      <HambergerMenu className='min-[600px]:hidden' size={30} color='#E1F16B' />
     </nav>
   )
 }
