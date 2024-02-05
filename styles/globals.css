@@ -5,14 +5,15 @@
 *{
   font-family: 'product sans';
 }
+.druk{
+  font-family: 'Druk Wide Bold', sans-serif;
+}
 .hero{
-  background-image: url('/background.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  object-fit: cover;
-  background-color: #1A1D1F;
-  height: 100vh;
+  @apply bg-[url('/background.png')] bg-no-repeat bg-center bg-neutrals min-h-screen
 }
 nav div>button{
   font-size: clamp(14px, 1vw, 16px);
+}
+.app-container{
+  @apply max-w-[1440px] mx-auto
 }

@@ -9,14 +9,16 @@ import Image from 'next/image'
 const images= [one,two,three,four,five]
 const FanbaseSection = () => {
   return (
-    <section className='py-[60px] bg-[#101214] flex text-white  items-center '>
+    <section className='bg-[#101214]'>
+    <section className='app-container py-[60px] bg-[#101214] flex text-white  items-center '>
      <div className=' flex h-[440px] pl-60p gap-[54px] max-[1050px]:h-auto max-[1050px]:flex-wrap'>
     {images.map((item,idx)=>(
       <figure  key={idx}  className={ idx%2===0?` flex flex-col self-start max-w-full`:  `flex flex-col self-end max-w-full`}>
-        <Image src={item.src} alt="" width={220} height={220}/>
+        <Image src={item} alt="" width={220} height={220}/>
       </figure>
     ))}
      </div>
+    </section>
     </section>
   )
 }

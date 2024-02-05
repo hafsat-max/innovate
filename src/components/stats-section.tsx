@@ -4,7 +4,7 @@ import React from 'react'
 
 const StatsSection = () => {
   return (
-    <section className='flex max-[800px]:flex-col-reverse' >
+    <section className=' flex max-[800px]:flex-col-reverse' >
       <div className='flex-1 pt-[96px] pl-60p bg-[url("/move-bg.png")] bg-cover bg-no-repeat bg-center flex flex-col gap-8 max-[800px]:items-center`'>
         <h3 className='text-neutrals text-[38px] font-bold max-w-[350px]'>USE YOUR STATS TO MAKE MOVES</h3>
         <div className='flex flex-col gap-7'>
