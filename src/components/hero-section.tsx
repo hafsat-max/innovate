@@ -6,7 +6,7 @@ import { ArrowRight } from 'iconsax-react'
 const HeroSection = () => {
   return (
     <section className=' bg-neutrals'>
-    <section className='hero flex flex-col gap-[78px] app-container'>
+    <section className='hero flex flex-col gap-[78px] app-container pb-20'>
       <Navbar/>
       <section className='flex justify-between '>
           <div className='flex flex-col px-[clamp(20px,3.75vw,60px)] gap-4'> 
@@ -17,7 +17,7 @@ const HeroSection = () => {
               <p className='max-w-[500px] text-[19px] text-white'>Figma files can also be downloaded from our store. These files include the latest Figma features and are </p>
               <button className='flex items-center gap-3 self-start'>
                 <span className='text-primary text-[17px]'>Try it now</span>
-                <ArrowRight size={15} color='#E1F16B'/>
+                <ArrowRight size={24} color='#E1F16B'/>
               </button>
               </div>
 
