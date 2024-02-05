@@ -1,1 +1,3 @@
 export const paragraphs= ['Figma files can also be downloaded from our store. These files include the latest Figma features and are synced with the Webflow template.', 'Figma files can also be downloaded from our store. These files include the latest Figma features and are synced ', 'Figma files can also be downloaded from our store. These files include the latest Figma features and are synced with the Webflow template.']
+
+export const socials = ['Twitter','Cookies', 'Discord','License','Instagram', 'Contact']

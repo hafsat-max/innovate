@@ -3,10 +3,16 @@
 @tailwind utilities;
 
 *{
-  font-family: 'product sans';
+  font-family: 'Product Sans', sans-serif;
 }
 .druk{
   font-family: 'Druk Wide Bold', sans-serif;
+}
+.integral{
+  font-family: "Integral CF Regular";
+}
+.clash{
+  font-family: 'clash display';
 }
 .hero{
   @apply bg-[url('/background.png')] bg-no-repeat bg-center bg-neutrals min-h-screen
@@ -14,6 +20,24 @@
 nav div>button{
   font-size: clamp(14px, 1vw, 16px);
 }
+nav ul li{
+  @apply hover:text-primary leading-[19.41px] text-base cursor-pointer
+}
 .app-container{
   @apply max-w-[1440px] mx-auto
+}
+.copywright{
+  @apply text-copywright leading-[10.8px] text-[9px] tracking-[48%] integral
+}
+.max{
+  @apply max-[800px]:max-w-full
+}
+.full{
+  @apply max-[800px]:w-full
+}
+.date{
+  @apply max-[800px]:hidden
+}
+.second{
+  @apply  max-[800px]:flex-col
 }
