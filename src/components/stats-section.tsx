@@ -7,14 +7,14 @@ const StatsSection = () => {
   return (
     <section className=' flex max-[800px]:flex-col-reverse' >
       <div className='flex-1 pt-[96px] pl-60p bg-[url("/move-bg.png")] bg-cover bg-no-repeat bg-center flex flex-col gap-8 max-[800px]:items-center pb-[150px]'>
-        <h3 className='text-neutrals text-[38px] font-bold max-w-[350px]'>USE YOUR STATS TO MAKE MOVES</h3>
+        <h3 className='text-neutrals text-[38px] text-center font-bold max-w-[350px]'>USE YOUR STATS TO MAKE MOVES</h3>
         <div className='flex flex-col gap-7'>
           {paragraphs.map((item, idx) => (
             <p key={idx} className='max-w-[500px] text-neutrals text-[19px]'>{item}</p>
           ))}
         </div>
 
-        <button className='flex items-center self-start gap-3'>
+        <button className='flex items-center  gap-3 '>
           <span className='text-neutrals text-[17px]'>Try it now</span>
           <ArrowRight size={24} color='#1A1D1F'/>
         </button>

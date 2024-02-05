@@ -30,7 +30,7 @@ const config: Config = {
         "16px": "clamp(14px,1vw,16px)",
         "19p": "19px",
         '21':'21px',
-        "54p": "clamp(32px,10vw,54px)",
+        "54p": "clamp(32px,5vw,54px)",
       },
       gap: {
         "80px": "clamp(20px,5vw,80px)",
