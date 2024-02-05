@@ -4,7 +4,8 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className='flex flex-col gap-8 bg-neutrals py-60 px-60p'>
+    <section className='bg-neutrals'>
+    <footer className='flex flex-col gap-8  py-60 px-60p app-container'>
 
       {/* row 1 */}
       <section className='flex items-center justify-between text-white max-[800px]:flex-col max-[800px]:w-full gap-5 '>
@@ -48,6 +49,7 @@ const Footer = () => {
         </div>
       </section>
     </footer>
+    </section>
   )
 }
 
